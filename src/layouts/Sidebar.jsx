@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom'
 
 function Sidebar() {
   return (
-    <div className='h-full w-[240px] border-r border-s-slate-600 p-3 overflow-y-scroll'>
+    <div className='h-full fixed w-[240px] bg-slate-800 border-r border-s-slate-600 p-3 overflow-y-scroll'>
         {/* logo */}
         {/* links */}
         {navbarLinks.map((link, index) => (
