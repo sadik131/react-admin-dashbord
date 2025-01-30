@@ -7,7 +7,7 @@ import { useGloble } from '../contex/theam-contex'
 function layout() {
   const {open} = useGloble()
   return (
-    <div className='h-screen bg-slate-800 flex dark:bg-slate-800'>
+    <div className='h-screen bg-gray-100 flex dark:bg-slate-800'>
       <Sidebar></Sidebar>
       <div className={`w-full h-full text-slate-200 ${open ? 'ml-[72px]' : 'ml-64'}`}>
         <Header></Header>
