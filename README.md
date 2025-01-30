@@ -1,8 +1,31 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Admin Dashbord
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+A brief description of what this project does and who it's for
+
+
+## Video of website
+
+Side: https://drive.google.com/file/d/1JWcYk-pskWT0uRzjl5jVvy7ny7pI_k3t/view?usp=sharing
+## Installation
+
+This is a simple website created using HTML and CSS. Follow the instructions below to clone, install, and run the project.
+
+ 1. clone the repository from a terminal `git@github.com:sadik131/react-admin-dashbord.git`
+ 2. naviage to the project directory  `react-admin-dashbord`
+ 3. install npm `npm i`
+ 4. start project `npm run dev`
+## Technologies Used  
+
+This project utilizes the following technologies:  
+
+### Frontend  
+- **Tailwind CSS:** A utility-first CSS framework for rapid and efficient UI development.  
+- **React:** A popular JavaScript library for building user interfaces.  
+- **React DOM:** Enables rendering of React components in the browser's DOM.  
+- **React Icons:** A library for easily integrating a wide range of scalable vector icons.  
+- **Recharts:** A powerful charting library for data visualization in React applications.  
+
+### Additional Tools  
+- **NPM/Yarn:** Package managers used for installing dependencies.  
