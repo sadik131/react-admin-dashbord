@@ -15,9 +15,9 @@ function Sidebar() {
                 <nav className='flex flex-col ' key={index}>
                     <p className='text-sm text-slate-800 dark:text-slate-400 font-medium mb-2 whitespace-nowrap text-ellipsis overflow-hidden'>{link.title}</p>
                     {link.links.map((item, index) => (
-                        <NavLink to={item.path} className={({ isActive }) => `${isActive ? "bg-blue-500 " : ""}  flex items-center gap-3 ${open ? "p-2" : "p-3"}  text-slate-800  dark:text-slate-100 hover:bg-blue-100 hover:text-slate-800 rounded-md`} key={index}>
-                            <item.icon size='20' />
-                            {!open && <span>{item.label}</span>}
+                        <NavLink to={item.path} className={({ isActive }) => `group ${isActive ? "bg-blue-500 " : ""}  flex items-center gap-3 ${open ? "p-2" : "p-3"}  text-slate-800  dark:text-slate-100 hover:bg-blue-100 hover:text-slate-800 rounded-md`} key={index}>
+                            <item.icon size='20' className={`group-hover:text-gray-800`} />
+                            {!open && <span className='group-hover:text-gray-800'>{item.label}</span>}
                         </NavLink>
                     ))}
                 </nav>
