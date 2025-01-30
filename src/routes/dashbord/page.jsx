@@ -6,6 +6,7 @@ import BordCard from '../../layouts/BordCard';
 import Sales from '../../layouts/Sales';
 import Products from '../../layouts/Products';
 import Footer from '../../layouts/Footer';
+import Chart from '../../layouts/Chart.jsx';
 
 function page() {
 
@@ -17,14 +18,14 @@ function page() {
   ]
 
   return (
-    <div className='px-4 pt-6 bg-slate-900'>
-      <h1 className='text-white text-2xl font-semibold'>Dashboard</h1>
+    <div className='px-4 pt-6 bg-gray-100 dark:bg-slate-900'>
+      <h1 className='text-slate-800 dark:text-white text-2xl font-semibold'>Dashboard</h1>
       {/* cards */}
       <div className='grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3 mt-5'>
         {dash.map((item) => <BordCard key={item.id} item={item} />)}
       </div>
       <div className="grid grid-cols-1 lg:grid-cols-2 mt-5 gap-4">
-        <Sales />
+        <Chart />
         <Sales />
       </div>
       <Products />

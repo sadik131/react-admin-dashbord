@@ -1,8 +1,4 @@
 import { ChartColumn, Home, NotepadText, Package, PackagePlus, Settings, ShoppingBag, UserCheck, UserPlus, Users } from "lucide-react";
-// import { BiDollar, BiPackage } from "react-icons/bi";
-// import { MdPeopleAlt, MdTrendingUp } from "react-icons/md";
-
-// import ProfileImage from "@/assets/profile-image.jpg";
 import ProductImage from "../assets/product.jpg";
 
 
